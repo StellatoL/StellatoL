@@ -28,36 +28,29 @@
 - **Bare-metal firmware**: STM32 multi-loop velocity PID, Kalman attitude estimation, fused wheel + IMU odometry
 - **Concurrency & data links**: producer–consumer queues with frame dropping, zero-copy ring buffers, PCIe DMA / BAR0 register protocol, I²C device control
 - **Upper-computer tooling**: PyQt6 + PyQtGraph oscilloscope (time domain + FFT spectrum), C++ Winsock UDP receiver, shared-memory IPC
-- **ROS 2 stack**: hand-written modular Nav2 launch, SLAM / AMCL dual mode, six-package workspace architecture
+- **ROS 2 stack**: modular hand-written Nav2 launch, SLAM / AMCL dual mode, six-package workspace architecture
 
 🚧 **Currently Exploring**
-- **Edge AI Deployment**: ONNX → RKNN conversion, NMS post-processing and NEON acceleration for YOLOv5 / LPRNet on RK3568 NPU
-- **Robot Autonomy**: coverage path planning with incremental replanning, frontier exploration, 45° slope laser filtering on a real chassis
+- **Edge AI Deployment**: ONNX → RKNN conversion, NMS post-processing and NEON acceleration for YOLOv5 / LPRNet on an RK3568 NPU
+- **Robot Autonomy**: coverage path planning with incremental replanning, frontier exploration and 45° slope laser filtering on a real chassis
 - **Semantic Mapping**: YOLOv8 + RGB-D semantic mapping and 2.5D semantic costmaps
-
-## 🏅 Honors
-
-<p>
-  <img src="https://img.shields.io/badge/全国大学生集成电路创新创业大赛-省一等奖-DC2626?style=flat" alt="集创赛省一" />
-  <img src="https://img.shields.io/badge/嵌入式芯片与系统设计竞赛-全国三等奖-2563EB?style=flat" alt="嵌赛国三" />
-  <img src="https://img.shields.io/badge/大学生创新创业训练计划-国家级立项-16A34A?style=flat" alt="大创国家级" />
-</p>
 
 ## 📦 Featured Projects
 
-- **[pango-fpga-2026](https://github.com/StellatoL/pango-fpga-2026)** — FPGA + RK3568 PCIe 智能交通识别系统。Qt5 三线程流水线 + 生产者–消费者队列，零拷贝环形缓冲对接 FPGA DMA，RKNN NPU 上部署 YOLOv5 + LPRNet 车牌识别。
-- **[vln-logistics-robot](https://github.com/StellatoL/vln-logistics-robot)** — 视觉语言导航物流小车（国家级大创立项）。ROS 2 + Gazebo 六包架构、模块化 Nav2 launch、SLAM / AMCL 双模式；STM32F407 麦轮底盘固件含四路速度 PID 与融合里程计。
-- **[RM2026_Buff_verify](https://github.com/StellatoL/RM2026_Buff_verify)** — RoboMaster 能量机关自瞄。自研 Hikrobot USB3 工业相机 C++17 驱动（3072×2048 @ 120Hz）与 ROS 2 节点，标定重投影误差 0.60px，含规则状态机与正弦拟合变速预测。
-- **[FPGARACE_2025_Gowin_3](https://github.com/StellatoL/FPGARACE_2025_Gowin_3)** — 高云 FPGA「多功能协议调试器」上位机全栈。PyQt6 高速示波器对接 25Msps ADC 以太网流；C++ UDP 接收 + 共享内存传输，支持 UART / I²C / SPI / PWM / CAN 帧解析。
+- **[pango-fpga-2026](https://github.com/StellatoL/pango-fpga-2026)** — FPGA + RK3568 PCIe intelligent traffic recognition system. A three-thread Qt5 pipeline (capture / inference / UI) with a producer–consumer queue that drops frames on overflow, a zero-copy ring buffer over FPGA PCIe DMA, and YOLOv5 + LPRNet licence-plate recognition deployed on the RKNN NPU.
+- **[vln-logistics-robot](https://github.com/StellatoL/vln-logistics-robot)** — Vision-language-navigation logistics robot (national-level student innovation project). Six-package ROS 2 + Gazebo architecture with a hand-written modular Nav2 launch and SLAM / AMCL dual mode; STM32F407 mecanum-chassis firmware with four-loop velocity PID and fused odometry.
+- **[RM2026_Buff_verify](https://github.com/StellatoL/RM2026_Buff_verify)** — RoboMaster power-rune auto-aim. A self-written C++17 USB3 Vision driver for a Hikrobot industrial camera (3072×2048 @ 120Hz) plus ROS 2 nodes, with 0.60px calibration reprojection error, a rule state machine and sinusoidal velocity prediction.
+- **[FPGARACE_2025_Gowin_3](https://github.com/StellatoL/FPGARACE_2025_Gowin_3)** — Full-stack host software for a Gowin FPGA multi-protocol debugger. A PyQt6 high-speed oscilloscope streaming from a 25 Msps ADC over Ethernet, a C++ UDP receiver with shared-memory transport, and UART / I²C / SPI / PWM / CAN frame decoding.
 
 ## 📫 Let's Connect
 
-🌐 **GitHub**: [@StellatoL](https://github.com/StellatoL)
-📦 **Repositories**: [github.com/StellatoL?tab=repositories](https://github.com/StellatoL?tab=repositories)
+✉️ **Email**: [X1255900804@163.com](mailto:X1255900804@163.com)
+🌐 **Blog**: [stellatol.github.io](https://stellatol.github.io/)
+💻 **GitHub**: [@StellatoL](https://github.com/StellatoL)
 
 ## ⚡ Fun Fact
 
-- 从 STM32 的 PWM 波形一路写到 ROS 2 的导航栈，最享受的时刻是让寄存器、时序约束和神经网络推理在同一块板子上达成一致。
+- Going from STM32 PWM waveforms all the way up to a ROS 2 navigation stack — the best moment is when registers, timing constraints and neural-network inference finally agree on the same board.
 
 ## 📊 GitHub Analytics
 
@@ -75,5 +68,5 @@
 </picture>
 
 <div align="center">
-  <sub>⭐️ 感谢访问我的个人主页 · 持续构建与探索中</sub>
+  <sub>⭐️ Thanks for stopping by · Always building, always exploring</sub>
 </div>
