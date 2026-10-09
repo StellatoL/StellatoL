@@ -112,19 +112,21 @@
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=StellatoL&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&include_all_commits=true" width="48.5%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=StellatoL&layout=compact&theme=react&hide_border=true&bg_color=0D1117&langs_count=8" width="48.5%" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=StellatoL&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&include_all_commits=true&card_width=440" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=StellatoL&layout=compact&theme=react&hide_border=true&bg_color=0D1117&langs_count=8&card_width=340" alt="Top Languages" />
 
-  <br/><br/>
+</div>
 
-  <img src="https://streak-stats.demolab.com/?user=StellatoL&theme=react&background=0D1117&hide_border=true" width="98%" />
+<br/>
 
-  <br/><br/>
+### 🐍 Contribution Activity
+
+<div align="center">
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/StellatoL/StellatoL/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/StellatoL/StellatoL/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/StellatoL/StellatoL/output/github-contribution-grid-snake.svg" width="98%">
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/StellatoL/StellatoL/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 
 </div>
