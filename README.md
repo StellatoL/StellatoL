@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=200&section=header&text=Hi%2C%20I'm%20StellatoL%20%F0%9F%91%8B&fontSize=44&fontAlignY=36" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=200&section=header&text=Hi%2C%20I'm%20Stellato%20%F0%9F%91%8B&fontSize=44&fontAlignY=36" width="100%"/>
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38BDF8&center=true&vCenter=true&width=560&lines=STM32+firmware+%E2%86%92+ARM+Linux+%E2%86%92+ROS+2+robotics;FPGA+PCIe+DMA+%2B+NPU+edge+inference;Edge+compute+meets+the+physical+world" alt="Typing SVG" />
 
