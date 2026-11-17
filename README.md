@@ -36,7 +36,7 @@
 
 ## 📦 Featured Projects
 
-#### 🚙 [`FPGARACE_2026_Pango_3`](https://github.com/StellatoL/FPGARACE_2026_Pango_3) · Private
+#### 🚙 [`FPGARACE_2026_Pango_3`](https://github.com/StellatoL/FPGARACE_2026_Pango_3)
 
 > **Four-camera FPGA bird's-eye view and RK3568 ADAS prototype**
 
@@ -44,7 +44,7 @@
 - **ARM application** — Qt 5 video display with RKNN vehicle/traffic detection, conventional lane detection, short-term tracking, and on-screen ADAS alerts.
 - **Current boundary** — The FPGA panorama and ARM application are still separate validation tracks; the complete camera-to-display board pipeline is pending integration and real-stream testing.
 
-`Verilog` `C++17` `Qt5` `RKNN` `OpenCV` `ModelSim` · [Project README](https://github.com/StellatoL/FPGARACE_2026_Pango_3#readme) (access required)
+`Verilog` `C++17` `Qt5` `RKNN` `OpenCV` `ModelSim`
 
 #### 🚗 [`pango-fpga-2026`](https://github.com/StellatoL/pango-fpga-2026) · Private
 
